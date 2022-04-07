@@ -2,7 +2,7 @@
 #include <cstring>
 #include <iostream>
 using namespace std;
-Str::Str(const char *string) //str 을 초기화하는 과정이다
+Str::Str(const char *string) //str 을 초기화하는 과정이다!!
 {
 len=strlen(string); //len 에 str의 문자열 길이를 저장한다
 str=new char[len+1];
